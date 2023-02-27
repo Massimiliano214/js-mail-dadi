@@ -1,6 +1,6 @@
 let avvioForm = document.querySelector(".submit");
 
-const eMailInput = document.getElementById("eMailInput");
+let eMailInput = document.getElementById("eMailInput");
 
 
 const eMailList = ["primamail@gmail.com", "secondamail@gmail.com", "terzamail@gmail.com", "quartamail@gmail.com", "quintamail@gmail.com", "sestamail@gmail.com"];
@@ -38,10 +38,11 @@ avvioForm.addEventListener("click",
 const resetForm = document.querySelector('.reset_form');
 
 resetForm.addEventListener('click', 
+    
     function () {
         const answer = document.querySelector(".answer");
         answer.classList.add("d_none");
-        eMailInput = "";
+        eMailInput.value = "";
     }
 );
 
