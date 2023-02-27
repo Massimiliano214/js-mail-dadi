@@ -41,7 +41,7 @@ resetForm.addEventListener('click',
     function () {
         const answer = document.querySelector(".answer");
         answer.classList.add("d_none");
-        console.log(eMailValue) ;
+        eMailInput = "";
     }
 );
 
