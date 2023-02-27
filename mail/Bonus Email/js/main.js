@@ -2,6 +2,7 @@ let avvioForm = document.querySelector(".submit");
 
 const eMail = document.getElementById("eMail");
 
+
 const eMailList = ["primamail@gmail.com", "secondamail@gmail.com", "terzamail@gmail.com", "quartamail@gmail.com", "quintamail@gmail.com", "sestamail@gmail.com"];
 
 let mySwitch = false;
@@ -18,8 +19,10 @@ avvioForm.addEventListener("click",
         
         if (mySwitch == true) {
             console.log("accesso consentito")
+            console.log(eMail);
         } else {
-            console.log("errore di digitazione")  
+            console.log("errore di digitazione")
+            console.log(eMail);
         }
         
     }
