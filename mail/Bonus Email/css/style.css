@@ -11,25 +11,38 @@ body {
     width: 1170px;
     background-color: burlywood;
     margin: auto;
+    height: 100vh;
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
     
     
 }
 
-.forms {
-    padding-left: calc(40%);
-    padding-top: 50px;
-    padding-bottom: 50px;
-    display: inline-block;
-    height: 150px;
-    
+.form_part {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.submit {
+    margin-left: 5px;
+}
+.answer_part {
+    height: 50vh;
+}
+
 
 .answer {
-    
-    padding: 50px;
-    background-color: coral;
     margin-top: 100px;
-    padding-left: 40%;
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(5, 46, 47);
+    background-color: brown;
+    padding: 5px;
+    border-radius: 10px;
 }
 
 .d_none {
