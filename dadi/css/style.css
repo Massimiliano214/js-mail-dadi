@@ -1,1 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
+body {
+    background-color: rosybrown;
+}
+.container {
+    width: 1170px;
+    background-color: burlywood;
+    margin: auto;
+    position: relative;
+    height: 100vh;
+}
+
+.answer {
+    display: block;
+    background-color: rgb(34, 16, 114);
+    font-size: 5rem;
+    left: 50%;
+    position: absolute;
+    top: 20%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.score {
+    display: block;
+    background-color: rgb(41, 4, 35);
+    font-size: 3rem;
+    left: 50%;
+    position: absolute;
+    bottom: 20%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
