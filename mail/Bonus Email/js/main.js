@@ -35,3 +35,15 @@ avvioForm.addEventListener("click",
     }
 );
 
+const resetForm = document.querySelector('.reset_form');
+
+resetForm.addEventListener('click', 
+    function () {
+        const answer = document.querySelector(".answer");
+        answer.classList.add("d_none");
+        console.log(eMailValue) ;
+    }
+);
+
+
+
