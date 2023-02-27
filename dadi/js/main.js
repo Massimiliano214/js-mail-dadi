@@ -25,7 +25,7 @@ const score = document.querySelector(".score");
 score.classList.remove("d_none");
 score.append(
 `
-    Pc-score: ${randomPc}
+    Pc-score: ${randomPc};
     Player-score:${randomPlayer} 
 `
 );
